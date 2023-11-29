@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: linear-gradient(
+      to right,
+      rgba(81, 151, 180, 0.6),
+      rgba(81, 151, 180, 0.6)
+    ),
+    url("./Assets/images/sky4.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid rgba(44, 98, 151, 0.5);
+}
+
+.logo {
+  color: #f2f2f2;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3c86f6;
+  color: #f2f2f2;
+  border-style: none;
+}
+
+.content {
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: bold;
+  color: #f2f2f2;
+  padding-bottom: 5px;
+}
+
+p {
+  color: #f2f2f2;
+  padding-bottom: 20px;
+}
+
+.play-button {
+  background-color: #f2f2f2;
+  color: rgba(9, 9, 9, 0.427);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.play {
+  background-color: inherit;
+  color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+  border-style: 1px solid #f2f2f2;
+  cursor: pointer;
+}
+
+/* SECTION 2 */
+
+.Boxs {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  width: 100%;
+}
+
+.box1 {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  background-color: #7e57c2;
+}
+
+.box2 {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  background-color: #ab47bc;
+}
+
+.box3 {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  background-color: #26a69a;
+}
+
+.box4 {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  background-color: #29b6f6;
+}
+
+.fa {
+  color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.h3 {
+  color: #f2f2f2;
+  padding-bottom: 50px;
+}
+
+/* SECTION 3 */
+
+.container2 {
+  background-color: #f5f5f5;
+}
+
+.container2 .top {
+  padding-top: 5%;
+}
+
+.top h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.top p {
+  text-align: center;
+  color: #8396a0;
+  padding-bottom: 30px;
+}
+
+.container2 .bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 5%;
+  padding-bottom: 5%;
+}
+
+.bottom p {
+  color: #8396a0;
+}
+
+.content7 h3{
+  padding-bottom: 8px;
+}
+
+h3 i {
+  margin-right: 10px;
+}
+.content6 .clock {
+  color: #ff9904;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.content6 .da1 {
+  color: #04bdd5;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.content6 .da2 {
+  color: #f33d3f;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+/* Section 4  */
+
+
+.container3 .top2 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.container3 .top2 h2 {
+  padding-bottom: 2%;
+}
+
+.container3 .top2 p {
+  color: #8396a0;
+  padding-bottom: 2%;
+}
+
+.bottom2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+img{
+  width: 400px;
+  border-radius: 1%;
+}
+
+.fa-book{
+  color: #04BDD5;
+}
+
+.fa-code{
+  color: #f66650;
+} 
+
+ .fa-money{
+  color: #7249b9;
+} 
+
+.content7 p{
+  color: #8396a0;
+  padding-left: 7%;
+}
+
+hr{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 80px; 
+  margin-right: 80px;
+  border: 1px solid rgb(234, 233, 233);
+}
+
+/* Section 5 */
+
+.container4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center ;
+  padding-top: 10px;
+  padding-bottom: 5%;
+}
+
+.fa-chart-bar{
+  color: #3F4FB7;
+}
+
+.fa-music{
+  color: #F33D3F;
+}
+
+.fa-smile{
+  background-color: white;
+  color: #3C86F6;
+}
+
+.content8 h3{
+  padding-bottom: 10px;
+}
+
+.content8 p {
+  white-space: pre-line ;
+  color: #8396a0;
+  padding-left: 7%;
+}
+
+/* Section 6 */
+
+.section6{
+  background-color: #3949AB;
+  color: #A8B1D8;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.section6-top h1{
+  margin-bottom: 2%;
+  color: #ffff;
+}
+
+.section6-top p{
+  color: #b0afaf;
+}
+
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 3%;
+}
+
+.pricing-plan1{
+  background: linear-gradient(
+    to right,
+    rgba(104,101,107,0.4),
+    rgba(95,94,103,1)
+  ),
+    url(./Assets/images/sky6.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  max-width: 300px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.plan-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.plan-price{
+  font-size: 80px;
+  font-weight: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 30%;
+  color: #FFFFFF;
+}
+
+.plan-features{
+  color: #F8F9F9;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-features li{
+  margin-bottom: 20px;
+}
+
+.plan-button{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  background-color: inherit;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+.pricing-plan2{
+  background: linear-gradient(
+    to right,
+    rgba(54,153,143,0.4),
+    rgba(54,153,142,1)
+  ),
+  url(./Assets/images/sky6.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  max-width: 300px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.pricing-plan3{
+  background: linear-gradient(
+    to right,
+    rgba(236,97,81,0.7),
+    rgba(224,93,84,0.5)
+  ),
+  url(./Assets/images/sky6.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  max-width: 300px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
